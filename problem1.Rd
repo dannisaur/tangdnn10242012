@@ -12,7 +12,11 @@ problem1(x)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x}{
+  \item{filename}{a character vector for all output filenames}
+  \item{fcnname}{a function object to be evaluated}
+  \item{nrange}{a number vector containing the range of values}
+  \item{nsample}{the number of points to be evaluated}
+  \item{compile}{output of file containing code to reproduce the graph}
 %%     ~~Describe \code{x} here~~
 }
 }
@@ -29,7 +33,7 @@ problem1(x)
 \references{
 %% ~put references to the literature/web site here ~
 }
-\author{Danni Tang
+\author{Danni Tang dtang9@jhu.edu
 %%  ~~who you are~~
 }
 \note{
