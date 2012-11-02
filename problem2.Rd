@@ -1,22 +1,19 @@
-\name{problem1}
-\alias{problem1}
+\name{problem2}
+\alias{problem2}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Normal Distribution Centered at 0
+\title{Winter Olympic Medals by Country
 %%  ~~function to do ... ~~
 }
-\description{Problem1 is an R function that plots the normal distribution of x from -5 to 5 and outputs a .tex file that makes the graph in a .pdf file.
+\description{Problem 2 is an R script that reads the data for Winter Olympic medals in a table format and creates a data frame for it. The script also saves the R object as an .rda file.
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
-problem1(x)
+problem2(x)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{filename}{a character vector for all output filenames}
-  \item{fcnname}{a function object to be evaluated}
-  \item{nrange}{a number vector containing the range of values}
-  \item{nsample}{the number of points to be evaluated}
-  \item{compile}{output of file containing code to reproduce the graph}{
+  \item{'medaldata.csv'}{.csv containing the raw data about the medals from Winter Olympics.}
+  \item{dataobject}{The numerical vector with columns Medal, NOC, and table.}{
 %%     ~~Describe \code{x} here~~
 }
 }
@@ -33,7 +30,7 @@ problem1(x)
 \references{
 %% ~put references to the literature/web site here ~
 }
-\author{Danni Tang dtang9@jhu.edu
+\author{
 %%  ~~who you are~~
 }
 \note{
