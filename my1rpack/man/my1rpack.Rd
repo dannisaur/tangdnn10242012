@@ -1,4 +1,4 @@
-\name{my1rpack.Rd}
+\name{my1rpack}
 \alias{my1rpack-package}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \docType{package}
@@ -8,9 +8,7 @@
 \description{An R package of problems 1 and 2 written in R studio. This contains the functions and scripts used in homework set 2.
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
-\usage{
-my1rpack.Rd(x)
-}
+
 %- maybe also 'usage' for other objects documented here.
 \arguments{
 %%     ~~Describe \code{x} here~~
@@ -25,20 +23,8 @@ my1rpack.Rd(x)
 %%  \item{comp2 }{Description of 'comp2'}
 %% ...
 }
-\references{
-%% ~put references to the literature/web site here ~
-}
 \author{Danni Tang dtang9@jhu.edu
 %%  ~~who you are~~
-}
-\note{My 1st R Package
-%%  ~~further notes~~
-}
-
-%% ~Make other sections like Warning with \section{Warning }{....} ~
-
-\seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
 ##---- Should be DIRECTLY executable !! ----

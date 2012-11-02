@@ -7,10 +7,10 @@ data <- read.csv('medaldata.csv',
                  comment.char="")
 
 attach(data)
-dataobject <- tapply(Medal,INDEX=NOC,table)
+problem2 <- tapply(Medal,INDEX=NOC,table)
 
-save(dataobject, list = character(),
-     file = "problem2.Rda",
+save(problem2, list = character(),
+     file = "problem2.rda",
      ascii = FALSE, 
      version = NULL, 
      envir = parent.frame(),
