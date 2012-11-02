@@ -1,0 +1,9 @@
+Package:
+Type: Package
+Title: R Package of Homework Set 2
+Version: 1.0
+Date: 2012-11-1
+Author: Danni Tang dtang9@jhu.edu
+Maintainer: Danni Tang
+Description: An R package containing functions and scripts written for homework set 2.
+License: GPL-3
