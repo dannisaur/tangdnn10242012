@@ -8,7 +8,7 @@
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
-ptoblem1(filename='bmw1Series',
+problem1(filename='bmw1Series',
                     fcnname=dnorm,
                     nrange=c(-5,5),
                     nsample=100, compile=TRUE)
